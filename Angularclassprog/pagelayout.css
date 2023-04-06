@@ -1,0 +1,64 @@
+nav {
+    background-color: #5c5c8a;
+    overflow: hidden;
+  }
+  
+  .rightnav{
+    float: right;
+    margin: 0;
+  }
+  .leftnav{
+    float:left;
+  }
+  
+  .list{
+    display: inline-block;
+  }
+  
+  .aa{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+  }
+  .image{
+    height: 40px;
+  }
+  .title{
+    font-family:"Roboto";
+    font-size:30px;
+    color:white;
+  }
+.footer-section
+{
+  background-color: #41de85;
+  color:white;
+  height:220px;
+  display:flex;
+
+}
+.icon
+{
+  width:80px;
+  height:50px;
+  border-radius: 50%;
+  margin-top:10px;
+  background: rgba(0,0,0,0.5);
+
+}
+
+.footer-container
+{
+  width:35%;
+  display: flex;
+  padding:2%;
+}
+.footer-content
+{
+  padding:0% 3%;
+  font-family: 'Times New Roman';
+  font-weight:normal;
+}
+
+  

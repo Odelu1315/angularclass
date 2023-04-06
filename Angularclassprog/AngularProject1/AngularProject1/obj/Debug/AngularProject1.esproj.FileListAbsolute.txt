@@ -1,0 +1,2 @@
+C:\Users\odelu.emmadi\OneDrive - Dedalus S.p.A\Desktop\Angular\AngularProject1\AngularProject1\obj\Debug\AngularProject1.esproj.SuggestedBindingRedirects.cache
+C:\Users\odelu.emmadi\OneDrive - Dedalus S.p.A\Desktop\Angular\AngularProject1\AngularProject1\obj\Debug\AngularProject1.esproj.CoreCompileInputs.cache
