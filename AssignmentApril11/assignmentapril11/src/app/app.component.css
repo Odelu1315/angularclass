@@ -1,0 +1,33 @@
+nav {
+    background-color: #5c5c8a;
+    overflow: hidden;
+  }
+  
+  .rightnav{
+    float: right;
+    margin: 0;
+  }
+  .leftnav{
+    float:left;
+  }
+  
+  .list{
+    display: inline-block;
+  }
+  
+  .aa{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+  }
+  .image{
+    height: 40px;
+  }
+  #footer{
+    background-color: lavender;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:0%;
+  }
