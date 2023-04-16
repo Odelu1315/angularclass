@@ -1,0 +1,18 @@
+<div class="header">
+  <div class="iconcontainer">
+<img class="headericon"src="http://localhost/headericon.jpg">
+</div>
+<div class="menucontainer">
+  <a href="" class="menu">Home</a>
+  <a href="" class="menu">Product</a>
+  <a href="" class="menu">Pricing</a>
+  <a href="" class="menu">Contact Us</a>
+</div>
+</div>
+<app-about></app-about>
+<div id="productcontainer">
+  <h3 class="producttitle">OUR PRODUCT</h3>
+  <app-product  *ngFor="let x of services;let y=index" 
+  [title]="x" [titledescription]="descriptions[y]"></app-product>
+
+</div>

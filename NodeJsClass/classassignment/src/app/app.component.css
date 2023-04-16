@@ -1,0 +1,41 @@
+.header{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    background-color:rgb(166, 195, 207);
+    margin:0px;
+    padding:0px;
+
+}
+.headericon{
+width:50px;
+height:50px;
+margin:10px;
+margin-left:30px;
+}
+.menucontainer{
+    margin-left:50%;
+    margin-top:25px;
+}
+.menu{
+    margin:10px;
+}
+#productcontainer{
+    background-color:bisque;
+    width:100%;
+    margin:0px;
+    padding-bottom: 20px;
+    height:auto;
+    box-sizing: border-box;
+    float: left;
+}
+.producttitle{
+    font-family: "Roboto";
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:0px;
+    padding-top:20px;
+   
+
+}

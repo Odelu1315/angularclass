@@ -1,0 +1,20 @@
+.aboutcontainer{
+    width:100%;
+    background-image: url("http://localhost/green.jpg");
+    background-size:cover;
+    height:295px;
+    margin:0px;
+    text-align:center;
+}
+.abouttitle{
+    font-family:"Roboto";
+    font-size:40px;
+    padding-top:50px;
+    margin-top:0px;
+}
+.aboutdescription{
+    font-family:"Roboto";
+    font-size:20px;
+    padding:10px;
+    text-align: center;
+}
