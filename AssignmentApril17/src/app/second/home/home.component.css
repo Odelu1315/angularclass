@@ -1,0 +1,15 @@
+.homeContainer{
+    width:100%;
+    padding-top:200px;
+    text-align: center;
+    background-image: url("http://localhost/bgimage.jpg");
+    background-size: cover;
+    height:500px;
+}
+p{
+    font-family:"Roboto";
+    font-style:italic;
+    font-size:36px;
+    font-weight:bold;
+
+}

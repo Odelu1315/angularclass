@@ -1,0 +1,16 @@
+.formContainer{
+    background-color: aqua;
+    border-radius:15px;
+    width:400px;
+    padding:30px;
+    height:350px;
+}
+.secondContainer{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+    background-image: url("http://localhost/bgimage.jpg");
+    background-size: cover;
+    height:500px;
+}

@@ -1,0 +1,24 @@
+title{
+    font-family:"Roboto";
+    font-size:"36px";
+    color:black;
+    
+}
+li{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    list-style-type: none;
+}
+a{
+    color:blanchedalmond;
+    font-size: 20px;
+}
+a:hover{
+    color: #33ccff;
+}
+.menu-bar{
+    background-color:#33ffd6 !important;
+    padding-left:440px;
+
+}
