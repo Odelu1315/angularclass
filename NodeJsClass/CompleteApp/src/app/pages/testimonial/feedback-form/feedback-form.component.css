@@ -1,9 +1,11 @@
 .feedback-container{
-    background-color: antiquewhite;
     margin-top: 15px;
     margin-bottom: 15px;
     width:75%;
-    margin-left:100px;
+    margin-left:210px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 .title{
     font-family: "Roboto";

@@ -1,6 +1,6 @@
 
 <div class="feedback-container">
-    <h1 class="title">{{feedback.name}}</h1>
-    <p class="msg">{{feedback.message}}</p>
+    <h1 class="title">{{feedback.name | uppercase}} said...</h1>
+    <p class="msg">{{feedback.message | quoteit}}</p>
     <h6>{{feedback.type}}</h6>
 </div>
