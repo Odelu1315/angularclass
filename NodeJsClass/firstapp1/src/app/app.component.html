@@ -12,20 +12,15 @@
    <a (click)="changeTheme('theme2')">Theme2</a>
 </div>
 </div>
-
 <app-about 
 [content]="dataitems.aboutus" 
 [servicelist]="dataitems.servicelist"></app-about>
 
 <div id="services" [ngStyle]="currentheme.services">
  <h3>Our Services</h3>
-
  <app-service-box *ngFor="let x of services;let y=index" 
  [title]="x" [description]="descriptions[y]"></app-service-box>
-
-
 </div>
-
 <div id="footer" [ngStyle]="currentheme.footer">
    <h3> &copy; All copyrights reserved. ABC limited 2023</h3>
 </div>
