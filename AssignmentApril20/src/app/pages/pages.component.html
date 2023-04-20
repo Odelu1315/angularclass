@@ -1,0 +1,8 @@
+<select [(ngModel)]="selected">
+    <option *ngFor ="let x of types">{{x}}</option>
+</select><br/>
+<mat-slider min="0" max="1000">
+    <input value="300" matSliderStartThumb>
+    <input value="400" matSliderEndThumb>
+  </mat-slider>
+<app-products *ngFor="let x of productlist | typefilter:selected " [product]="x"></app-products>
