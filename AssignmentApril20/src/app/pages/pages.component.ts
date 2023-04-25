@@ -15,7 +15,9 @@ export class PagesComponent {
     "Groceries",
     "Books"
   ]
-  selected:string="All"
+  selected:string="All";
+  min:number=0;
+  max:number=1000;
   constructor(private hs:ProductService){
     this.hs.getProducts().subscribe(
       {

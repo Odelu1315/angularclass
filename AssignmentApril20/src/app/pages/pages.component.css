@@ -1,4 +1,15 @@
 mat-slider {
     width: 300px;
   }
+  .dropdown{
+    margin-top:20px;
   
+  }
+  .drop{
+    width:30%;
+    margin-left:100px;
+  }
+  .slider{
+    width:30%;
+    margin-left:100px;
+  }

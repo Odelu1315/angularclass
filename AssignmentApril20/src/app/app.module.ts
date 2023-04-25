@@ -11,6 +11,10 @@ import { TypefilterPipe } from './pipes/typefilter.pipe';
 import { FormsModule } from '@angular/forms';
 import { PricePipe } from './pipes/price.pipe';
 import { SliderPipe } from './pipes/slider.pipe';
+import { MaterialModule } from './material/material.module';
+import { HomeComponent } from './pages/home/home.component';
+import { ComplaintComponent } from './pages/complaint/complaint.component';
+import { CommonComponent } from './common/common.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,18 @@ import { SliderPipe } from './pipes/slider.pipe';
     PagesComponent,
     TypefilterPipe,
     PricePipe,
-    SliderPipe
+    SliderPipe,
+    HomeComponent,
+    ComplaintComponent,
+    CommonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

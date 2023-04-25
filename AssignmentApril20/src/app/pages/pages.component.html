@@ -1,8 +1,17 @@
+<div class="dropdown">
+
+    <div class="drop">
 <select [(ngModel)]="selected">
     <option *ngFor ="let x of types">{{x}}</option>
 </select><br/>
-<mat-slider min="0" max="1000">
-    <input value="300" matSliderStartThumb>
-    <input value="400" matSliderEndThumb>
+</div>
+
+<div class="slider">
+<mat-slider min="0" max="1000" step="50">
+    <input [(value)]="min" matSliderStartThumb>
+    <input [(value)]="max" matSliderEndThumb>
   </mat-slider>
-<app-products *ngFor="let x of productlist | typefilter:selected " [product]="x"></app-products>
+</div>
+
+</div>
+<app-products *ngFor="let x of productlist | typefilter:selected | slider :min:max " [product]="x"></app-products>
