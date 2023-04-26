@@ -1,0 +1,15 @@
+mat-slider {
+    width: 300px;
+  }
+  .dropdown{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .drop{
+    margin-left:100px;
+    margin-top:10px
+  }
+  .slider{
+    margin-left:20px;
+  }
