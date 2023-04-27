@@ -18,13 +18,13 @@
 }
 
 .text{
-    height: 20%;
+
     text-align: center;
     background-color: black;
     text-shadow: 3px 3px 3px gray;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    padding-top: 15px;
+    padding-top: 8px;
     box-sizing: border-box;
 }

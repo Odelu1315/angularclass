@@ -7,11 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './home/product/product.component';
 import { ComplaintComponent } from './complaint/complaint.component';
 import { MaterialModule } from './material/material.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { PricePipe } from './pipes/price.pipe';
 import { TypefilterPipe } from './pipes/typefilter.pipe';
 import { SliderPipe } from './pipes/slider.pipe';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,11 @@ import { SliderPipe } from './pipes/slider.pipe';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    HttpClient,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

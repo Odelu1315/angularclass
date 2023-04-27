@@ -1,0 +1,23 @@
+<div class="details">
+    <h1>{{product.name}}</h1>
+    <div class="image">
+        <img src="http://localhost/{{product.image}}" />
+    </div>
+    <p>{{product.description}}</p>
+<div>
+
+    <div>
+        <mat-card class="form1">
+            <mat-card-header>
+                <h2 class="heading2">Review please!</h2>
+            </mat-card-header>
+            <mat-card-content>
+                <form [formControl]="Form" (submit)="postReview()">
+                    <textarea rows=4 cols=30 formControlName="message" class="textarea1"></textarea>
+                    <div class="error1"*ngIf='Form.controls.message.hasError("required")'>Should be filled</div>
+                    <div class="error1" *ngIf='Form.controls.message.hasError("minlength")'>Atleast 15 characters long</div>
+                    <button type="submit"  [disabled]="!Form.valid" class="button">Post my review</button>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </div>  
